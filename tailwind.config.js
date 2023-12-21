@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: ['group-hover', 'odd', 'even', 'hover'],
       colors: {
         'primary': 'green',
         'secondary': 'blue',
